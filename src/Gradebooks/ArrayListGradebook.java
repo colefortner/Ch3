@@ -4,13 +4,14 @@ import java.util.Scanner;
 
 public class ArrayListGradebook {
     public static void main(String[] args) {
-
+        // Declared two objects (students and grades) of type
+        // ArrayList<String> and ArrayList<Double>
         ArrayList<String> students = new ArrayList<>();
         ArrayList<Double> grades = new ArrayList<>();
         Scanner input = new Scanner(System.in);
         String newStudent;
 
-        System.out.println("Enter your students (or Enter to finish: ");
+        System.out.println("Enter your students (or Enter to finish): ");
 
         // Get student names
         do {
